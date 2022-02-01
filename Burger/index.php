@@ -20,10 +20,33 @@
       <!-----------LISTE CARD-------------->
 
        <?php 
-    require('./data/data.php');
+    require_once('./data/data.php');
    foreach($items as $item){
+    if(!isset ($_GET['cat'])){
+          echo '
+     <div class="col-12 col-sm-6 col-md-4">
+      <!-----------CARD-------------->
+      <div class="card mycard">
+        <img class="card-img-top photo" src="./img/'. $item['image'] .'" alt="Card image cap">
+        <div class="card-body bodycard">
+          <h5 class="card-title">'. $item['name'] .'</h5>
+          <p class="card-text contentcard">'. $item['description'] .'</p>
+        </div>
+        <div class="card-body bodycard">
+          <!-------Button ------------------------------------>
+          <button type="button" class="btn btn btn-light"  role="button">
+            <span class="fa fa-sign-in"></span>  <a href="./detail.php?titre='. $item['name'] . ' &image='. $item['image'] . '&contenu='. $item['description'] . '&prix='. $item['price']. '"> Voir </a></button>
+          <!----------------------------------------------->
+        </div>
+      </div>
+      <!----------END CARD ------------------>
+
+  </div>
      
-    //   if($_GET['cat']==$item['category']){
+     ';   
+    }   
+     
+   elseif($_GET['cat']==$item['category']){
 
      echo '
      <div class="col-12 col-sm-6 col-md-4">
@@ -47,8 +70,10 @@
      
      ';
        
-                    //              }
-                           }
+             }
+           
+       }
+                           
    ?>
 
       <!----------END LISTE CARD ------------------>

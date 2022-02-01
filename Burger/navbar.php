@@ -18,6 +18,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
          <!---CDN Javascript poppser -------------------------------------->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        
     </head>
 
 
@@ -42,7 +43,20 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="./index.php"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fas fa-hamburger fa-lg"></span> Menu</a></li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="index.php?cat=1" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <span class="fas fa-bars"></span>  Menus
+        </a>              
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="index.php?cat=1"><span class="fa fa-burger-soda fa-lg"></span> Menus</a>
+          <a class="dropdown-item" href="index.php?cat=2"><span class="fa fa-hamburger fa-lg"></span> Burgers</a>
+          <a class="dropdown-item" href="index.php?cat=3"><span class="fa fa-french-fries fa-lg"></span> Snacks</a>
+          <a class="dropdown-item" href="index.php?cat=4"><span class="fa fa-salad fa-lg"></span> Salades</a>
+          <a class="dropdown-item" href="index.php?cat=5"><span class="fa fa-glass fa-lg"></span> Boissons</a>
+          <a class="dropdown-item" href="index.php?cat=6"><span class="fa fa-ice-cream fa-lg"></span> Desserts</a>
+
+        </div>
+      </li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
