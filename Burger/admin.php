@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel="stylesheet" href="../CSS/style.css">
-<?php require '../navbar.php'; ?>
+<link rel="stylesheet" href="/CSS/style.css">
+<?php require '/navbar.php'; ?>
     </head>
     <body>
       <!----- Le contenu--------------------------------------------------------------->
@@ -68,4 +68,8 @@
         <!------------------------------END CONTENU --------------------------------------------->
 
     </body>
+    <!-- debut footer-->
+<?php require './footer.php'; ?>
+<!-- fin footer-->
+
     </html>

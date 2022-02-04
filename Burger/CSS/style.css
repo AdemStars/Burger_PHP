@@ -7,7 +7,6 @@ background-image: url("../img/bg-body.png");
 padding: 60px 0px 0px 0px;
 margin-top:20px;
     z-index:0;
-
 }
 .row-content {
     margin: 0px auto;
@@ -118,4 +117,7 @@ margin-top:20px;
 dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
- }    
+ }
+form{
+    color:white
+}

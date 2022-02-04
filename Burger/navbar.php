@@ -41,8 +41,9 @@
                
                <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="../index.php"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./index.php"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./admin.php"><span class="fa fa-admin fa-lg"></span> Admin</a></li>
                     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="index.php?cat=1" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          <span class="fas fa-bars"></span>  Menus
@@ -66,5 +67,6 @@
             </div>
                                
             </div>
-        </nav>
+       </nav>
+</html>
     <!------------------------ End Nav ---------------------------------------------------->
