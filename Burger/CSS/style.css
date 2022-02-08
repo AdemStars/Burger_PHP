@@ -118,6 +118,7 @@ dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
  }
-form{
-    color:white
+.form{
+    color:white;  
 }
+.b{color:white;}
